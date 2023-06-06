@@ -6,6 +6,8 @@ https://github.com/erayozkoc/weather-app/assets/126143406/af26f914-da7c-44ff-a79
 
 
 # weather-app
+### Api source
+https://openweathermap.org/
 
 ## Project setup
 ```
@@ -33,3 +35,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
