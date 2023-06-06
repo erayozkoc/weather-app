@@ -2,6 +2,7 @@
 
 
 
+![weather-gif](https://github.com/erayozkoc/weather-app/assets/126143406/207f746d-cf1a-4a1c-8244-4266dd2aba32)
 
 
 
