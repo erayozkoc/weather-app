@@ -24,7 +24,8 @@ npm run serve
 npm run build
 
 
-https://github.com/erayozkoc/weather-app/assets/126143406/5ae868e2-1d1e-45fe-a85f-b9232b4cc5ae
+
+
 
 ```
 
