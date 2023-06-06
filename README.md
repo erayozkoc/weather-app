@@ -1,5 +1,9 @@
 
 
+https://github.com/erayozkoc/weather-app/assets/126143406/af26f914-da7c-44ff-a79f-e9b241b6f429
+
+
+
 
 # weather-app
 
