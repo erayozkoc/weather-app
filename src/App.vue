@@ -1,26 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <WeatherCard/>
+  <WeatherAnimation/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import WeatherCard from './components/WeatherCard.vue';
+import WeatherAnimation from './components/WeatherAnimation.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    WeatherCard,WeatherAnimation
+  },
+  created(){     
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=istanbul&appid=cb541d465bf134394cc34c88c37f380f&units=metric')
+            .then(res=>res.json())
+            .then(json=>{this.$store.dispatch('dataApi',json)}
+            )
+    
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
 </style>
